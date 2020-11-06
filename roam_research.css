@@ -1,0 +1,231 @@
+/* text font size*/
+body,html, .rm-block-text , .zoom-mentions-view{
+    font-size: 18px !important;
+	/*font-size: var(--txt-font-size) !important;*/
+	/*line-height: calc(1.4*var(--txt-font-size)) !important;*/
+	/*min-height: calc(1.4*var(--txt-font-size)) !important;*/
+}
+
+
+.rm-mentions .rm-ref-page-view .rm-ref-page-view-title {
+    font-size: 24px;
+}
+
+/* blocks as headings */
+
+.roam-block-container h1 {
+	font-weight: 300;
+	font-size: 32px;
+	color: black;
+}
+
+.roam-block-container h2 {
+	font-weight: 600;
+	font-size: 26px;
+	color: black;
+}
+
+.roam-block-container h3 {
+	font-weight: 600;
+	font-size: 22px;
+	color: black;
+}
+
+
+/* https://github.com/Alem-Bukvich/Roam-Research-Themes/blob/master/Candy */
+
+/* Main document background */
+  body{
+  background-color: #fff;
+  }
+  
+/* Main font */
+  body,
+  html,
+  div,
+  textarea,
+  a
+  {
+  font-family: Consolas;
+  color: #355C7D;
+  }
+
+/* Left sidebar */
+  .roam-body .roam-app .roam-sidebar-container {
+  background-color: #f8b1951a !important;
+  margin-top: 45px;
+  }
+
+/* Left sidebar text */
+  .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+  padding: 8px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  color: #355C7D;
+  }
+
+/* Shortcuts */
+  .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+  color: #f5f8fa;
+  background-color: #5f617e;
+  }
+
+/* Right sidebar */
+  #right-sidebar {
+  background-color: #f8b1951a !important;
+  }
+
+/* Top bar */
+  .roam-topbar {
+  background: linear-gradient(to right, #355C7D, #F67280, #F8B195);
+  border-bottom: 1px solid #e0e0e073;
+  }
+
+/* Reference block */
+  .rm-reference-item {
+  background-color: #f8b1951a;
+  margin-bottom: 10px;
+  }
+
+/* Page link */
+  .rm-page-ref-link-color {
+  color: #F67280;
+  font-weight: 600;
+  }
+
+/* Reference block heading */
+  a {
+  color: #F67280;
+  }
+  a:hover {
+  color: #F67280;
+  }
+
+/* All pages */
+  .rm-pages-row-highlight {
+  background-color: #f8b1951a;
+  }
+
+  .element.style {
+  background-color: #f8b1951a;
+  }
+  
+/* All pages table header */
+   .rm-pages-row:first-of-type { 
+   background-color: #f8b19582 !important;
+   }
+
+/* Vertical guides */
+  .block-border-left {
+  border-color: #F8B195;
+  }
+
+/* Bullets */
+  #right-sidebar .controls .roam-bullet-closed, .controls .roam-bullet-closed {
+  background:rgb(203,139,159);
+  border: 1px solid rgb(203,139,159);
+  }
+
+  .simple-bullet-inner {
+  	/* opacity: 0.3; */
+    background-color: rgb(102 57 72 / 1) !important;
+  }
+
+/* Checkmarks */
+.checkmark {
+  	background: #ffffff21;
+}
+.checkmark {
+    position: absolute;
+    top: -5px;
+    left: -3px;
+    height: 18px;
+    border-radius: 50%;
+    width: 18px;
+    border: 3px solid #db3737;
+}
+  
+.check-container input:checked ~ .checkmark {
+	background: #da3e00;
+}
+  
+.check-container input:checked ~ .checkmark:after {
+ 	left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+	border-color: #fff;
+}
+
+/* Hashtags */
+  .rm-page-ref-tag {
+  color: #f5f8fa !important;
+  font-weight: 400;
+  background-color: rgb(150 170 190 / 1);
+  border-radius: 10px;
+  padding: 1px 5px 2px;
+  }
+
+  .rm-page-ref-tag:hover {
+  /* background-color: #f672803b;*/
+  background-color: #db3737;
+  text-decoration: none;
+  }
+
+/* Highlighting */
+  .roam-highlight { 
+  background-color: #f8b19582;
+  color: #424242;
+  border-radius: 0px;
+  padding: 5px 5px 4px 5px;
+  }
+
+/* Text selection */
+  ::selection {
+  color: #F67280;
+  background: #f8b19547;
+  }
+
+/* Search box border */
+  .rm-find-or-create-wrapper .bp3-input
+  {
+  border: none !important;
+  box-shadow: none !important;
+  }
+
+/* "SHORTCUTS" heading */
+  .starred-pages-wrapper .flex-h-box {
+  display: none;
+  }
+
+/* Roam logo */
+  #roam-sidebar-logo {
+  display: none;
+  }
+
+/* Less space below page heading */
+  .roam-body .roam-app .roam-main .roam-article .rm-title-display {
+  margin-bottom: 10px;
+  }
+
+/* Block refs are not underlined or shrunk */
+  .rm-block-ref {
+    font-size: 1em;
+    padding: 4px;
+    margin: 0;
+    border-bottom: none;
+    color: #355C7D;
+    background-color: bisque;
+  }
+
+/* Align check-boxes better */
+  label.check-container {
+  margin-bottom: 11px;
+  margin-right: 3px;
+  }
+  
+  .rm-level1 label.check-container {
+  margin-bottom: 17px;
+  margin-right: -3px;
+  }
